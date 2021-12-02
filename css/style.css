@@ -617,43 +617,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Product Featuress Section
 --------------------------------*/
-#features, #features1 {
+#feature {
   background: #fff;
   padding: 60px 0 0 0;
 }
 
-#features, #features1 .features-img {
+#features .features-img {
   text-align: center;
   padding-top: 20px;
 }
 
 @media (min-width: 769px) {
-  #features, #features1.features-img {
+  #features.features-img {
     padding-top: 120px;
     margin-top: -200px;
   }
 }
 
-#features, #features1 .features-img img {
+#features .features-img img {
   max-width: 100%;
 }
 
-#features, #features1 .box {
+#features .box {
   margin-bottom: 15px;
   text-align: center;
 }
 
-#features, #features1 .icon {
+#features .icon {
   margin-bottom: 10px;
 }
 
-#features, #features1 .icon i {
+#features .icon i {
   color: #666666;
   font-size: 40px;
   transition: 0.5s;
 }
 
-#features, #features1 .icon i:before {
+#features .icon i:before {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
@@ -661,23 +661,86 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-text-fill-color: transparent;
 }
 
-#features, #features1 .title {
+#features .title {
   font-weight: 300;
   margin-bottom: 15px;
   font-size: 22px;
 }
 
-#features, #features1 .title a {
+#features .title a {
   color: #111;
 }
 
-#features, #features1 .description {
+#features .description {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 10px;
 }
 
-#features, #features1 .section-description {
+#features .section-description {
+  padding-bottom: 10px;
+}
+#feature1 {
+  background: #fff;
+  padding: 60px 0 0 0;
+}
+
+#features1 .features-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 769px) {
+  #features1.features-img {
+    padding-top: 120px;
+    margin-top: -200px;
+  }
+}
+
+#features1 .features-img img {
+  max-width: 100%;
+}
+
+#features1 .box {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#features1 .icon {
+  margin-bottom: 10px;
+}
+
+#features1 .icon i {
+  color: #666666;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+#features1 .icon i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#features1 .title {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#features1 .title a {
+  color: #111;
+}
+
+#features1 .description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+#features1 .section-description {
   padding-bottom: 10px;
 }
 
